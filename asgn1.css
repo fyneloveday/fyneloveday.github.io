@@ -1,0 +1,31 @@
+body {
+	color: white;
+  	background-color: black;
+  	text-align: center;
+  	font-family: "Times New Roman", Times, serif;
+}
+h1 {
+	color: white;
+	text-align: center;
+	text-decoration: underline;
+	text-transform: capitalize;
+	font-family: Verdana;
+}
+h2 {
+	color:white;
+	text-align: center;
+	text-decoration: underline;
+	text-transform: capitalize;
+	font-family: verdana;
+}
+p {outline-color:white;}
+
+p.dotted {outline-style: dotted;}
+img {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+img:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}
